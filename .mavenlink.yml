@@ -1,0 +1,10 @@
+---
+auth:
+    username: null
+    password: null
+    token: null
+defaults:
+    # NWOT
+    workspace_id: 17277765
+    role_id: ftux_participant
+    story_id: 348530265

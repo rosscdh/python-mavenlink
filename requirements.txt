@@ -1,0 +1,7 @@
+click
+ruamel.yaml
+requests
+arrow
+marshmallow
+#requests-oauth2
+Jinja2
