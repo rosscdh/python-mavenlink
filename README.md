@@ -37,6 +37,8 @@ So that I can send data to mavenlink
 `mavenlink login`
 
 * will use the `config.auth` data to request a token from mavenlink
+* will pop open a window accessing a simple request token page
+* user will go through oauth2 process with mavenlink getting token, which gets saved
 
 
 ### Story 4 - Consume Timesheets
@@ -47,7 +49,7 @@ So that I can prepare a json object to send to mavenlink
 
 `mavenlink consume :processor stdin`
 
-* will allow the user to specifiy a `:processor` (json|csv|yaml)
+* will allow the user to specifiy a `:processor` (togl|googleSpreadsheet|json|csv)
 
 
 ### Story 5 - Preview Timesheet
